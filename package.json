@@ -1,0 +1,19 @@
+{
+  "name": "apprestapi",
+  "version": "1.0.0",
+  "description": "Rest API ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kusuma16/apprestapi.git"
+  },
+  "author": "Kusuma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kusuma16/apprestapi/issues"
+  },
+  "homepage": "https://github.com/Kusuma16/apprestapi#readme"
+}
