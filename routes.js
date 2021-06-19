@@ -8,5 +8,8 @@ module.exports = function(app){
     
     app.route('/tampil')
         .get(myapp.tampilDataMahasiswa);
+
+    app.route('/tampil/:id')
+        .get(myapp.tampilDataMahasiswaid);
 };
 
