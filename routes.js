@@ -1,9 +1,9 @@
 'use strict';
 
-module.exports = function(apps){
+module.exports = function(app){
     var myapp = require('./controller');
 
     app.route('/')
-    .get(myapp.index);
+        .get(myapp.index);
 };
 

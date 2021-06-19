@@ -2,9 +2,10 @@ var mysql = require('mysql');
 
 // Create a connection
 const conn = mysql.createConnection({
-    host: 'localhost:3306',
+    host: 'localhost',
+    port: '3306',
     user: 'root',
-    password: '',
+    password: 'password',
     database: 'dbrestapi'
 });
 
