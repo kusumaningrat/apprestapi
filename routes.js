@@ -5,5 +5,8 @@ module.exports = function(app){
 
     app.route('/')
         .get(myapp.index);
+    
+    app.route('/tampil')
+        .get(myapp.tampilDataMahasiswa);
 };
 
